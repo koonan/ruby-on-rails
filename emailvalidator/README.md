@@ -12,8 +12,8 @@ you can use it by making a post  request[postman as an example] to ```/api/valid
 email=test@example.com in  body.
 
 ### success and error messages
-"Email is valid" if email exist
-* **email does not exist as an SMTP domain** if not exist
+* **Email is valid** if email exist
+* **email does not exist as an SMTP domain** if email doesn't exist
 
 ### used Gems and APIs
 * [mailboxlayer](https://mailboxlayer.com) as a 3rd party api
